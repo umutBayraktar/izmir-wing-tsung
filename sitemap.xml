@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Ana Sayfa -->
+    <url>
+        <loc>https://izmirwingchun.com/</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg</image:loc>
+            <image:title>İzmir Wing Chun Ana Sayfa</image:title>
+            <image:caption>İzmir'de profesyonel Wing Chun Kung Fu eğitimi</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Kurslar Ana Sayfa -->
+    <url>
+        <loc>https://izmirwingchun.com/kurslar</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Çocuk Kursu -->
+    <url>
+        <loc>https://izmirwingchun.com/kurslar/cocuk-grubu</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/8611192/pexels-photo-8611192.jpeg</image:loc>
+            <image:title>Çocuk Wing Chun Kursu</image:title>
+            <image:caption>7-12 yaş arası çocuklar için Wing Chun eğitimi</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Genç Kursu -->
+    <url>
+        <loc>https://izmirwingchun.com/kurslar/genc-grubu</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/7991322/pexels-photo-7991322.jpeg</image:loc>
+            <image:title>Genç Wing Chun Kursu</image:title>
+            <image:caption>13-17 yaş arası gençler için Wing Chun eğitimi</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Yetişkin Kursu -->
+    <url>
+        <loc>https://izmirwingchun.com/kurslar/yetiskin-grubu</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg</image:loc>
+            <image:title>Yetişkin Wing Chun Kursu</image:title>
+            <image:caption>18+ yaş yetişkinler için Wing Chun eğitimi</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Hakkımızda -->
+    <url>
+        <loc>https://izmirwingchun.com/hakkimizda</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Galeri -->
+    <url>
+        <loc>https://izmirwingchun.com/galeri</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Blog Ana Sayfa -->
+    <url>
+        <loc>https://izmirwingchun.com/blog</loc>
+        <lastmod>2024-01-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog Yazıları -->
+    <url>
+        <loc>https://izmirwingchun.com/blog/wing-chun-nedir-nasil-ogrenilir</loc>
+        <lastmod>2024-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg</image:loc>
+            <image:title>Wing Chun Nedir ve Nasıl Öğrenilir?</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://izmirwingchun.com/blog/cocuklar-icin-wing-chun-faydaları</loc>
+        <lastmod>2024-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/8611192/pexels-photo-8611192.jpeg</image:loc>
+            <image:title>Çocuklar İçin Wing Chun'un Faydaları</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://izmirwingchun.com/blog/chi-sao-yapışkan-eller-tekniği</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/7991322/pexels-photo-7991322.jpeg</image:loc>
+            <image:title>Chi Sao: Wing Chun'un Kalbi</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://izmirwingchun.com/blog/wing-chun-felsefesi-yaşam-sanati</loc>
+        <lastmod>2023-12-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://images.pexels.com/photos/8611543/pexels-photo-8611543.jpeg</image:loc>
+            <image:title>Wing Chun Felsefesi: Bir Yaşam Sanatı</image:title>
+        </image:image>
+    </url>
+
+</urlset>
