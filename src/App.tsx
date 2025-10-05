@@ -15,7 +15,7 @@ import BlogPost from './pages/BlogPost';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename='/izmir-wing-tsung'>
         <div className="min-h-screen bg-white">
           <Header />
           <main>

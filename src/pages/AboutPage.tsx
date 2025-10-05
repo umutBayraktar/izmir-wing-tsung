@@ -49,7 +49,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="/images/Wing-Tsung-Art-Association-aile-agaci.webp"
+                src="/izmir-wing-tsung/images/Wing-Tsung-Art-Association-aile-agaci.webp"
                 alt="Wing Chun Derneği"
                 className="w-full h-100 object-cover rounded-2xl shadow-lg"
               />
@@ -151,7 +151,7 @@ const AboutPage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/images/Sifu-Kenan-Ataman-WTAA-bas-egitmen.webp"
+                  src="/izmir-wing-tsung/images/Sifu-Kenan-Ataman-WTAA-bas-egitmen.webp"
                   alt="Sifu Kenan Ataman - Başeğitmen"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
@@ -181,7 +181,7 @@ const AboutPage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/images/Sifu-Mustafa-Cetin.webp"
+                  src="/izmir-wing-tsung/images/Sifu-Mustafa-Cetin.webp"
                   alt="Sifu Mustafa Çetin - Araştırmacı, Komite Üyesi"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
@@ -210,7 +210,7 @@ const AboutPage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="/images/Sihing-Firat-Artan-Wing-Chun.webp"
+                  src="/izmir-wing-tsung/images/Sihing-Firat-Artan-Wing-Chun.webp"
                   alt="Sihing Fırat Arıkan - Ege Bölge Sorumlusu"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}

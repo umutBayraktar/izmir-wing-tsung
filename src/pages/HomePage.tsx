@@ -67,7 +67,7 @@ const HomePage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="/images/izmir-wing-chun-cocuk-grubu.jpg"
+                  src="/izmir-wing-tsung/images/izmir-wing-chun-cocuk-grubu.jpg"
                   alt="Çocuk Wing Chun Kursu"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -100,7 +100,7 @@ const HomePage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="/images/izmir-wing-chun-genc-grubu.jpg"
+                  src="/izmir-wing-tsung/images/izmir-wing-chun-genc-grubu.jpg"
                   alt="Genç Wing Chun Kursu"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -133,7 +133,7 @@ const HomePage = () => {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="/images/izmir-wing-chun-yetiskin-grubu.jpg"
+                  src="/izmir-wing-tsung/images/izmir-wing-chun-yetiskin-grubu.jpg"
                   alt="Yetişkin Wing Chun Kursu"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -198,7 +198,7 @@ const HomePage = () => {
                 <video 
                   className="w-full h-80 object-cover"
                   controls
-                  poster="/images/wing-tsung-sanat-dernegi.png"
+                  poster="/izmir-wing-tsung/images/wing-tsung-sanat-dernegi.png"
                   preload="metadata"
                 >
                   <source 
@@ -314,7 +314,7 @@ const HomePage = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="/images/izmir-wing-chun-wing-chun-egitimi.png"
+                  src="/izmir-wing-tsung/images/izmir-wing-chun-wing-chun-egitimi.png"
                   alt="Wing Chun Felsefesi"
                   className="w-full h-100 object-cover object-center rounded-xl"
                   style={{ objectPosition: 'center center' }}

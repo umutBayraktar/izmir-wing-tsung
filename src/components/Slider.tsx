@@ -4,21 +4,21 @@ import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    image: '/images/izmir-wtaa.JPG',
+    image: '/izmir-wing-tsung/images/izmir-wtaa.JPG',
     title: 'Wing Chun Sanatını Öğrenin',
     description: 'Geleneksel Çin dövüş sanatı Wing Chun ile kendinizi geliştirin',
     cta: 'Kursa Başlayın'
   },
   {
     id: 2,
-    image: '/images/izmir-wing-chun-kursu.JPG',
+    image: '/izmir-wing-tsung/images/izmir-wing-chun-kursu.JPG',
     title: 'Deneyimli Eğitmenler',
     description: 'Uzman eğitmenlerimizle Wing Chun\'un inceliklerini keşfedin',
     cta: 'Eğitmenlerimizi Tanıyın'
   },
   {
     id: 3,
-    image: '/images/izmir-wtaa.JPG',
+    image: '/izmir-wing-tsung/images/izmir-wtaa.JPG',
     title: 'Her Yaşa Uygun Kurslar',
     description: 'Çocuk, genç ve yetişkin gruplarımızla herkese uygun eğitim',
     cta: 'Kursları İnceleyin'

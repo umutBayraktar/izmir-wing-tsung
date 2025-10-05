@@ -8,55 +8,55 @@ const GalleryPage = () => {
   const images = [
     {
       id: 1,
-      src: '/images/gallery/wtaa-seminer-1.png',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-1.png',
       title: 'Yetişkin Grubu Antrenmanı',
       category: 'Etkinlikler'
     },
     {
       id: 2,
-      src: '/images/gallery/wtaa-seminer-2.png',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-2.png',
       title: 'Çocuk Grubu Eğitimi',
       category: 'Etkinlikler'
     },
     {
       id: 3,
-      src: '/images/gallery/wtaa-seminer-3.png',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-3.png',
       title: 'Genç Grubu Chi Sao',
       category: 'Etkinlikler'
     },
     {
       id: 4,
-      src: '/images/gallery/wtaa-seminer-4.png',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-4.png',
       title: 'Form Çalışması',
       category: 'Etkinlikler'
     },
     {
       id: 5,
-      src: '/images/izmir-wing-chun-wing-chun-egitimi.png',
+      src: '/izmir-wing-tsung/images/izmir-wing-chun-wing-chun-egitimi.png',
       title: 'Partner Egzersizleri',
       category: 'Teknikler'
     },
     {
       id: 6,
-      src: '/images/gallery/wtaa-seminer-5.png',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-5.png',
       title: 'Wing Chun Semineri',
       category: 'Teknikler'
     },
     {
       id: 7,
-      src: '/images/gallery/izmir-wing-chun-wtaa-antrenman-1.png',
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-1.png',
       title: 'Dernek Etkinliği',
       category: 'Antrenmanlar'
     },
     {
       id: 8,
-      src: '/images/gallery/izmir-wing-chun-wtaa-antrenman-2.png',
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-2.png',
       title: 'Nefes Teknikleri',
       category: 'Antrenmanlar'
     },
     {
       id: 9,
-      src: '/images/gallery/izmir-wing-chun-wtaa-antrenman-3.png',
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-3.png',
       title: 'Nefes Teknikleri',
       category: 'Antrenmanlar'
     },

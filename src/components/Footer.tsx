@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center">
                 <img
-                  src="/images/wing-tsung-sanat-dernegi-logo.webp"
+                  src="/izmir-wing-tsung/images/wing-tsung-sanat-dernegi-logo.webp"
                   alt="İzmir Wing Chun Logo"
                   className="w-full h-full object-cover object-center"
                 />
