@@ -4,24 +4,27 @@ import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    image: '/izmir-wing-tsung/images/izmir-wtaa.JPG',
+    image: '/izmir-wing-tsung/images/wtaa-seminer-1.png',
     title: 'Wing Chun Sanatını Öğrenin',
     description: 'Geleneksel Çin dövüş sanatı Wing Chun ile kendinizi geliştirin',
-    cta: 'Kursa Başlayın'
+    cta: 'Bizi Yakından Tanıyın',
+    link: '/izmir-wing-tsung/#/hakkimizda'
   },
   {
     id: 2,
-    image: '/izmir-wing-tsung/images/izmir-wing-chun-kursu.JPG',
+    image: '/izmir-wing-tsung/images/izmir-wing-chun-wtaa-antrenman-3.png',
     title: 'Deneyimli Eğitmenler',
     description: 'Uzman eğitmenlerimizle Wing Chun\'un inceliklerini keşfedin',
-    cta: 'Eğitmenlerimizi Tanıyın'
+    cta: 'Eğitmenlerimizi Tanıyın',
+    link: '/izmir-wing-tsung/#/hakkimizda#egitmenler'
   },
   {
     id: 3,
-    image: '/izmir-wing-tsung/images/izmir-wtaa.JPG',
+    image: '/izmir-wing-tsung/images/izmir-wtaa.png',
     title: 'Her Yaşa Uygun Kurslar',
     description: 'Çocuk, genç ve yetişkin gruplarımızla herkese uygun eğitim',
-    cta: 'Kursları İnceleyin'
+    cta: 'Kursları İnceleyin',
+    link: '/izmir-wing-tsung/#/kurslar'
   }
 ];
 
@@ -68,13 +71,9 @@ const Slider = () => {
                   {slide.description}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors">
+                  <a href={slide.link} className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors">
                     {slide.cta}
-                  </button>
-                  <button className="flex items-center justify-center space-x-2 border border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-colors">
-                    <Play size={20} />
-                    <span>Tanıtım Videosunu İzle</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

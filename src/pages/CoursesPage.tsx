@@ -188,10 +188,6 @@ const CoursesPage = () => {
                             <p className="font-semibold text-gray-900">{course.subtitle}</p>
                           </div>
                         </div>
-                        <div>
-                          <p className="text-sm text-gray-500">Aylık Ücret</p>
-                          <p className="text-2xl font-bold text-yellow-600">{course.price}</p>
-                        </div>
                       </div>
                     </div>
 

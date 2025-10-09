@@ -41,7 +41,7 @@ const HomePage = () => {
       <SEOHead 
         title="İzmir Wing Chun - Geleneksel Kung Fu Eğitimi | Ana Sayfa"
         description="İzmir'de en iyi Wing Chun Kung Fu eğitimi. Çocuk, genç ve yetişkin grupları için profesyonel kurslar. Deneyimli eğitmenlerle geleneksel dövüş sanatını öğrenin."
-        keywords="izmir wing chun, kung fu izmir, dövüş sanatları izmir, wing chun eğitimi, çocuk kung fu kursu, yetişkin kung fu, izmir spor kulübü"
+        keywords="izmir wing chun, izmir wing tsun, izmir vin çun, kung fu izmir, dövüş sanatları izmir, izmir yakın dövüş kursu, wing chun eğitimi, çocuk kung fu kursu, yetişkin kung fu, izmir spor kulübü"
         ogUrl="https://izmirwingchun.com"
         structuredData={structuredData}
       />

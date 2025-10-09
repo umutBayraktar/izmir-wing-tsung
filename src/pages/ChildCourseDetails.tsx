@@ -74,7 +74,7 @@ const ChildCourseDetails = () => {
 
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/8611192/pexels-photo-8611192.jpeg"
+                src="/izmir-wing-tsung/images/izmir-wing-chun-cocuk-grubu.jpg"
                 alt="Çocuk Wing Chun Eğitimi"
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />

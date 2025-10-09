@@ -73,7 +73,7 @@ const AdultCourseDetails = () => {
 
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg"
+                src="/izmir-wing-tsung/images/izmir-wing-chun-wtaa-antrenman-1.png"
                 alt="Yetişkin Wing Chun Eğitimi"
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
