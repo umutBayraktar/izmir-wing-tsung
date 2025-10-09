@@ -6,9 +6,9 @@ const TeenCourseDetails = () => {
   return (
     <>
       <SEOHead 
-        title="Genç Wing Chun Kursu (13-17 yaş) | İzmir Wing Chun"
-        description="13-17 yaş gençler için Wing Chun kursu. Disiplin, kendini savunma ve mental güç geliştirme. Akranlarıyla sosyalleşme fırsatı. İlk ders ücretsiz!"
-        keywords="genç wing chun, genç kung fu izmir, 13-17 yaş dövüş sanatı, ergen sporu izmir, kendini savunma kursu"
+        title="Genç Wing Chun Kursu (13-18 yaş) | İzmir Wing Chun"
+        description="13-18 yaş gençler için Wing Chun kursu. Disiplin, kendini savunma ve mental güç geliştirme. Akranlarıyla sosyalleşme fırsatı. İlk ders ücretsiz!"
+        keywords="genç wing chun, genç kung fu izmir, 13-18 yaş dövüş sanatı, ergen sporu izmir, kendini savunma kursu"
         ogUrl="https://izmirwingchun.com/kurslar/genc-grubu"
       />
 
@@ -17,7 +17,7 @@ const TeenCourseDetails = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full font-semibold inline-block mb-6">
-              13-17 Yaş Grubu
+              13-18 Yaş Grubu
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Genç Wing Chun Kursu
@@ -38,7 +38,7 @@ const TeenCourseDetails = () => {
                 Gençlik Dönemi İçin İdeal
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                13-17 yaş arası gençler için özel olarak tasarlanan Wing Chun programımız, 
+                13-18 yaş arası gençler için özel olarak tasarlanan Wing Chun programımız, 
                 bu kritik yaş dönemindeki gençlerin fiziksel ve mental gelişimlerini 
                 destekleyerek özgüven kazanmalarını sağlar.
               </p>
@@ -47,31 +47,28 @@ const TeenCourseDetails = () => {
                 <div className="bg-yellow-50 p-6 rounded-xl">
                   <Users className="text-yellow-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Yaş Grubu</h3>
-                  <p className="text-gray-700">13-17 yaş</p>
+                  <p className="text-gray-700">13-18 yaş</p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl">
                   <Clock className="text-blue-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Ders Saatleri</h3>
-                  <p className="text-gray-700">Sal & Per<br />19:00-20:00</p>
+                  <p className="text-gray-700">Sal & Cuma<br />20:00-21:00</p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-xl">
                   <Award className="text-green-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Seviye</h3>
                   <p className="text-gray-700">Başlangıç-Orta</p>
                 </div>
-                <div className="bg-purple-50 p-6 rounded-xl">
-                  <Star className="text-purple-600 mb-3" size={32} />
-                  <h3 className="font-semibold text-gray-900 mb-2">Aylık Ücret</h3>
-                  <p className="text-gray-700 text-lg font-bold">400₺</p>
-                </div>
               </div>
 
-              <Link 
-                to="/kurslar"
+              <a 
+                href="https://wa.me/905074195013?text=Kurslarınız%20hakkında%20bilgi%20almak%20istiyorum"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-semibold transition-colors inline-block"
               >
                 Hemen Kayıt Ol
-              </Link>
+              </a>
             </div>
 
             <div className="relative">
@@ -81,8 +78,7 @@ const TeenCourseDetails = () => {
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-yellow-500 text-gray-900 p-4 rounded-xl shadow-lg">
-                <p className="font-bold text-lg">İlk Ders</p>
-                <p className="text-xl font-bold">ÜCRETSİZ!</p>
+                <p className="font-bold text-lg">Hemen deneme dersine katıl</p>
               </div>
             </div>
           </div>
@@ -331,7 +327,7 @@ const TeenCourseDetails = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+905321234567"
+              href="tel:+905074195013"
               className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Hemen Ara: +90 507 419 50 13

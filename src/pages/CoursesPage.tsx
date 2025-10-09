@@ -222,7 +222,7 @@ const CoursesPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+905321234567"
+              href="tel:+905074195013"
               className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Hemen Ara: +90 507 419 50 13

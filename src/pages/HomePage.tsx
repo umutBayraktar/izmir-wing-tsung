@@ -75,15 +75,15 @@ const HomePage = () => {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Çocuk Grubu</h3>
-                <p className="text-gray-600 mb-4">7-12 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.</p>
+                <p className="text-gray-600 mb-4">6-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.</p>
                 <div className="space-y-2 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Users size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">7-12 yaş</span>
+                    <span className="text-sm">6-13 yaş</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Clock size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">Pazartesi & Çarşamba - 18:00</span>
+                    <span className="text-sm">Cumartesi 12:00 - 14:00 (2 Derslik blok ders)</span>
                   </div>
                 </div>
                 <Link 
@@ -108,15 +108,15 @@ const HomePage = () => {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Genç Grubu</h3>
-                <p className="text-gray-600 mb-4">13-17 yaş arası gençler için disiplin ve teknik odaklı Wing Chun eğitimi.</p>
+                <p className="text-gray-600 mb-4">13-18 yaş arası gençler için disiplin ve teknik odaklı Wing Chun eğitimi.</p>
                 <div className="space-y-2 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Users size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">13-17 yaş</span>
+                    <span className="text-sm">13-18 yaş</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Clock size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">Salı & Perşembe - 19:00</span>
+                    <span className="text-sm">Salı & Cuma - 20:00-21:00</span>
                   </div>
                 </div>
                 <Link 
@@ -141,15 +141,15 @@ const HomePage = () => {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Yetişkin Grubu</h3>
-                <p className="text-gray-600 mb-4">18+ yaş yetişkinler için profesyonel düzeyde Wing Chun öğretimi ve uygulaması.</p>
+                <p className="text-gray-600 mb-4">18 yaş üzeri yetişkinler için profesyonel düzeyde Wing Chun öğretimi ve uygulaması.</p>
                 <div className="space-y-2 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Users size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">18+ yaş</span>
+                    <span className="text-sm">18 yaş ve üzeri</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Clock size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">Pazartesi & Çarşamba - 20:00</span>
+                    <span className="text-sm">Pazartesi & Çarşamba - 20:00 - 21:00</span>
                   </div>
                 </div>
                 <Link 
@@ -486,12 +486,14 @@ Bize bu fırsatı sunduğu için Fırat hocama teşekkürler"
                       Wing Chun'u denemek istiyorsanız, ilk dersiniz tamamen ücretsizdir. 
                       Rezervasyon için bizi arayın.
                     </p>
-                    <Link 
-                      to="/kurslar"
+                    <a 
+                      href="https://wa.me/905074195013?text=Kurslarınız%20hakkında%20bilgi%20almak%20istiyorum"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-6 py-2 rounded-full font-semibold transition-colors inline-block"
                     >
                       Hemen Rezervasyon Yap
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

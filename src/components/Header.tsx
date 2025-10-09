@@ -24,9 +24,9 @@ const Header = () => {
                 className="w-full h-full object-cover object-center"
               />
             </div>
-            <div className="hidden sm:block">
-              <h1 className="text-blue-800 font-bold text-xl">İzmir Wing Chun</h1>
-              <p className="text-gray-600 text-sm">Geleneksel Kung Fu Sanatı</p>
+            <div className="block">
+              <h1 className="text-blue-800 font-bold text-lg sm:text-xl">İzmir Wing Chun</h1>
+              <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">Geleneksel Kung Fu Sanatı</p>
             </div>
           </Link>
 

@@ -6,9 +6,9 @@ const ChildCourseDetails = () => {
   return (
     <>
       <SEOHead 
-        title="Çocuk Wing Chun Kursu (7-12 yaş) | İzmir Wing Chun"
-        description="7-12 yaş çocuklar için özel tasarlanmış Wing Chun kursu. Eğlenceli öğrenme, disiplin ve motor beceri geliştirme. İlk ders ücretsiz!"
-        keywords="çocuk wing chun, çocuk kung fu izmir, 7-12 yaş dövüş sanatı, çocuk sporu izmir"
+        title="Çocuk Wing Chun Kursu (6-13 yaş) | İzmir Wing Chun"
+        description="6-13 yaş çocuklar için özel tasarlanmış Wing Chun kursu. Eğlenceli öğrenme, disiplin ve motor beceri geliştirme. İlk ders ücretsiz!"
+        keywords="çocuk wing chun, çocuk kung fu izmir, 6-13 yaş dövüş sanatı, çocuk sporu izmir"
         ogUrl="https://izmirwingchun.com/kurslar/cocuk-grubu"
       />
 
@@ -17,7 +17,7 @@ const ChildCourseDetails = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full font-semibold inline-block mb-6">
-              7-12 Yaş Grubu
+              6-13 Yaş Grubu
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Çocuk Wing Chun Kursu
@@ -47,31 +47,29 @@ const ChildCourseDetails = () => {
                 <div className="bg-yellow-50 p-6 rounded-xl">
                   <Users className="text-yellow-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Yaş Grubu</h3>
-                  <p className="text-gray-700">7-12 yaş</p>
+                  <p className="text-gray-700">6-13 yaş</p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl">
                   <Clock className="text-blue-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Ders Saatleri</h3>
-                  <p className="text-gray-700">Pzt & Çar<br />18:00-18:45</p>
+                  <p className="text-gray-700">Cumartesi<br />12:00 - 14:00 (2 Derslik blok ders)</p>
                 </div>
                 <div className="bg-green-50 p-6 rounded-xl">
                   <Award className="text-green-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Seviye</h3>
                   <p className="text-gray-700">Başlangıç</p>
                 </div>
-                <div className="bg-purple-50 p-6 rounded-xl">
-                  <Star className="text-purple-600 mb-3" size={32} />
-                  <h3 className="font-semibold text-gray-900 mb-2">Aylık Ücret</h3>
-                  <p className="text-gray-700 text-lg font-bold">300₺</p>
-                </div>
+                
               </div>
 
-              <Link 
-                to="/kurslar"
+              <a 
+                href="https://wa.me/905074195013?text=Kurslarınız%20hakkında%20bilgi%20almak%20istiyorum"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-4 rounded-full font-semibold transition-colors inline-block"
               >
                 Hemen Kayıt Ol
-              </Link>
+              </a>
             </div>
 
             <div className="relative">
@@ -81,8 +79,7 @@ const ChildCourseDetails = () => {
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-yellow-500 text-gray-900 p-4 rounded-xl shadow-lg">
-                <p className="font-bold text-lg">İlk Ders</p>
-                <p className="text-xl font-bold">ÜCRETSİZ!</p>
+                <p className="font-bold text-lg">Hemen deneme dersine katıl</p>
               </div>
             </div>
           </div>
@@ -325,7 +322,7 @@ const ChildCourseDetails = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+905321234567"
+              href="tel:+905074195013"
               className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Hemen Ara: +90 507 419 50 13
