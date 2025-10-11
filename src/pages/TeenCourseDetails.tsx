@@ -98,162 +98,57 @@ const TeenCourseDetails = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Target size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Kendini Savunma</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Günlük Yaşamda Denge</h3>
+              <p className="text-gray-600 mb-4">
+                Günümüzde gençler, erken yaşlardan itibaren stresli durumlarla başa çıkmak zorunda kaldıkları performans odaklı bir toplumda yaşıyor. WTAA'nın genç antrenmanları, gençlerin dayanıklılığı için sağlıklı bir denge ve güçlü bir temel sunuyor.
+              </p>
               <p className="text-gray-600">
-                Praktik ve etkili Wing Chun teknikleri ile gençler kendilerini 
-                güvende hissederler ve zorbalık gibi durumlarla başa çıkabilirler.
+                Günlük yaşamın duygusal stresi, fiziksel ve atletik aktivitelerle mükemmel bir şekilde dengelenebilir. Bu, günlük davranışlar üzerinde de olumlu bir etkiye sahiptir.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Brain size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Stres Yönetimi</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Fiziksel Uygunluk</h3>
               <p className="text-gray-600">
-                Wing Chun'un meditasyon ve nefes teknikleri sayesinde gençler 
-                okul stresi ve sosyal baskılarla daha iyi başa çıkar.
+                Düzenli antrenman seansları koordinasyon, konsantrasyon, dayanıklılık, direnç ve özgüvenin yanı sıra hız ve gücü de geliştirir. WTAA'nın özel genç antrenmanları, gençlerin doğru şekilde egzersiz yapmalarını sağlayarak daha iyi, daha huzurlu ve daha dinlendirici bir uyku çekmelerini sağlar ve bu da okulda konsantrasyon yeteneklerini geliştirir.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Zap size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Öz Disiplin</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Değerleri İletir</h3>
+              <p className="text-gray-600 mb-4">
+                Saygı ve disiplin, WTAA eğitiminin temel taşlarıdır. Bu değerler, gençlerin kişiliklerini olumlu yönde şekillendirir ve güçlendirir.
+              </p>
               <p className="text-gray-600">
-                Düzenli antrenmanlar ve geleneksel değerler sayesinde gençler 
-                öz disiplin kazanır ve hedeflerine odaklanmayı öğrenirler.
+                Gençler, WTAA'da hem spor aktiviteleri hem de akranlarıyla grup antrenmanları aracılığıyla sosyal bağlarını sürdürebilir ve genişletebilirler. Antrenmanlarda öğrenilen değerler, sosyalleşme yoluyla günlük hayata aktarılabilir.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Users size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Motivasyonlu Öğrenme</h3>
+              <p className="text-gray-600">
+                Gençler meydan okumayı seven bir öğrenme tarzını benimser. Öz savunma hepimizin özünde vardır, ancak gençlerde daha belirgindir. Rekabetçi ortamdan büyük keyif alırlar. Bu motivasyon aynı zamanda gençler için başarı göstergesi haline gelir. Ne kadar çok motive olurlarsa, spor içinde ve dışında katılım ve buna bağlı başarı da o kadar artar.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Eğitim Programı */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Genç Dostu Eğitim Programı
-            </h2>
-            <p className="text-xl text-gray-600">
-              Gençlerin ilgisini çekecek dinamik ve etkili müfredat
-            </p>
-          </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {/* Seviye 1 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    1
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Temel Teknikler ve Felsefe (1-4. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Fiziksel Teknikler:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Wing Chun duruş ve dengesini kurma</li>
-                          <li>• Temel el teknikleri (Tan Sao, Bong Sao)</li>
-                          <li>• Merkez çizgi teorisi</li>
-                          <li>• Temel savunma pozisyonları</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Mental Gelişim:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Wing Chun felsefesi ve tarihi</li>
-                          <li>• Konsantrasyon ve odaklanma</li>
-                          <li>• Sakinlik altında kalma</li>
-                          <li>• Takım çalışması ve empati</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Seviye 2 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    2
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Gelişmiş Teknikler ve Uygulamalar (5-8. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">İleri Teknikler:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Chi Sao (Yapışkan eller) temelleri</li>
-                          <li>• Kombine savunma-saldırı</li>
-                          <li>• Ayak çalışması ve mesafe</li>
-                          <li>• Pratik kendini savunma senaryoları</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Karakter Gelişimi:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Liderlik becerileri</li>
-                          <li>• Çatışma çözme teknikleri</li>
-                          <li>• Öz güven inşası</li>
-                          <li>• Sorumluluk alma</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Seviye 3 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    3
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Uzmanlık ve Öğretmenlik (9-12. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Uzman Seviye:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Sil Lim Tau form çalışması</li>
-                          <li>• İleri Chi Sao teknikleri</li>
-                          <li>• Serbest sparring</li>
-                          <li>• Küçük gruplara öğretmenlik</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Yaşam Becerileri:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Hedef belirleme ve planlama</li>
-                          <li>• Zaman yönetimi</li>
-                          <li>• İletişim becerileri</li>
-                          <li>• Kendini geliştirme alışkanlığı</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Genç Öğrenci Yorumları */}
       <section className="py-20 bg-custom-blue text-white">

@@ -7,33 +7,33 @@ const CoursesPage = () => {
     {
       id: 'cocuk-grubu',
       title: 'Çocuk Grubu',
-      subtitle: '7-12 yaş',
-      image: 'https://images.pexels.com/photos/8611192/pexels-photo-8611192.jpeg',
-      description: 'Çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı. Oyun temelli öğrenme ile temel teknikleri kavrayacaklar.',
+      subtitle: '6-13 yaş',
+      image: '/izmir-wing-tsung/images/izmir-wing-chun-cocuk-grubu.jpg',
+      description: '6-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.',
       features: [
         'Eğlenceli oyun temelli öğrenme',
         'Disiplin ve saygı değerlerinin kazanılması',
         'Koordinasyon ve motor beceri geliştirme',
         'Özgüven artırıcı aktiviteler'
       ],
-      schedule: 'Pazartesi & Çarşamba - 18:00',
-      duration: '45 dakika',
+      schedule: 'Cumartesi 12:00 - 14:00 (2 Derslik blok ders)',
+      duration: '2 saat',
       price: '300₺/ay',
       level: 'Başlangıç'
     },
     {
       id: 'genc-grubu',
       title: 'Genç Grubu',
-      subtitle: '13-17 yaş',
-      image: 'https://images.pexels.com/photos/7991322/pexels-photo-7991322.jpeg',
-      description: 'Ergenlik dönemindeki gençler için disiplin ve teknik odaklı Wing Chun eğitimi. Kendini savunma ve mental güç geliştirme.',
+      subtitle: '13-18 yaş',
+      image: '/izmir-wing-tsung/images/izmir-wing-chun-genc-grubu.jpg',
+      description: '13-18 yaş arası gençler için disiplin ve teknik odaklı Wing Chun eğitimi.',
       features: [
         'Disiplin ve odaklanma becerisi',
         'Kendini savunma teknikleri',
         'Stres yönetimi ve mental güç',
         'Akran grupları ile sosyalleşme'
       ],
-      schedule: 'Salı & Perşembe - 19:00',
+      schedule: 'Salı & Cuma - 20:00-21:00',
       duration: '60 dakika',
       price: '400₺/ay',
       level: 'Başlangıç-Orta'
@@ -41,17 +41,17 @@ const CoursesPage = () => {
     {
       id: 'yetiskin-grubu',
       title: 'Yetişkin Grubu',
-      subtitle: '18+ yaş',
-      image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg',
-      description: 'Yetişkinler için profesyonel düzeyde Wing Chun öğretimi. Geleneksel tekniklerin yanı sıra pratik uygulamalar.',
+      subtitle: '18 yaş ve üzeri',
+      image: '/izmir-wing-tsung/images/izmir-wing-chun-yetiskin-grubu.jpg',
+      description: '18 yaş üzeri yetişkinler için profesyonel düzeyde Wing Chun öğretimi ve uygulaması.',
       features: [
         'Profesyonel düzeyde teknik eğitim',
         'Geleneksel form ve uygulamalar',
         'Sparring ve pratik çalışmalar',
         'Felsefe ve meditasyon'
       ],
-      schedule: 'Pazartesi & Çarşamba - 20:00',
-      duration: '75 dakika',
+      schedule: 'Pazartesi & Çarşamba - 20:00 - 21:00',
+      duration: '60 dakika',
       price: '500₺/ay',
       level: 'Tüm seviyeler'
     }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Award, Clock, Mail, Phone, MapPin } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 import FAQSection from '../components/FAQSection';
@@ -54,7 +55,7 @@ const AboutPage = () => {
                 className="w-full h-100 object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute -bottom-6 -right-6 bg-yellow-500 text-gray-900 p-6 rounded-xl shadow-lg">
-                <p className="font-bold text-2xl">2018</p>
+                <p className="font-bold text-2xl">2000</p>
                 <p className="text-sm">Kuruluş Yılı</p>
               </div>
             </div>
@@ -135,7 +136,7 @@ const AboutPage = () => {
       </section>
 
       {/* Eğitmen Kadromuz */}
-      <section className="py-20">
+      <section className="py-20" id="egitmenler">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -148,17 +149,17 @@ const AboutPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Başeğitmen */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <Link to="/egitmen/kenan-ataman" className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/izmir-wing-tsung/images/Sifu-Kenan-Ataman-WTAA-bas-egitmen.webp"
                   alt="Sifu Kenan Ataman - Başeğitmen"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Sifu Kenan Ataman</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-custom-blue transition-colors">Sifu Kenan Ataman</h3>
                 <p className="text-yellow-600 font-semibold mb-4">Başeğitmen</p>
                 <p className="text-gray-600 mb-4">
                   15 yıllık Wing Chun deneyimi. Hong Kong'da eğitim almış, 
@@ -174,21 +175,24 @@ const AboutPage = () => {
                     <span>15+ Yıl Deneyim</span>
                   </div>
                 </div>
+                <div className="mt-4 text-custom-blue font-semibold text-sm group-hover:underline">
+                  Detaylı Bilgi →
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* Eğitmen 2 */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <Link to="/egitmen/mustafa-cetin" className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/izmir-wing-tsung/images/Sifu-Mustafa-Cetin.webp"
                   alt="Sifu Mustafa Çetin - Araştırmacı, Komite Üyesi"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Sifu Mustafa Çetin</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-custom-blue transition-colors">Sifu Mustafa Çetin</h3>
                 <p className="text-blue-600 font-semibold mb-4">Araştırmacı, komite üyesi</p>
                 <p className="text-gray-600 mb-4">
                   Çocuk pedagojisi alanında uzmanlaşmış, 8 yıllık Wing Chun deneyimi.
@@ -203,21 +207,24 @@ const AboutPage = () => {
                     <span>8+ Yıl Deneyim</span>
                   </div>
                 </div>
+                <div className="mt-4 text-custom-blue font-semibold text-sm group-hover:underline">
+                  Detaylı Bilgi →
+                </div>
               </div>
-            </div>
+            </Link>
 
             {/* Eğitmen 3 */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+            <Link to="/egitmen/firat-arikan" className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow group">
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/izmir-wing-tsung/images/Sihing-Firat-Artan-Wing-Chun.webp"
                   alt="Sihing Fırat Arıkan - Ege Bölge Sorumlusu"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Sihing Fırat Arıkan</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-custom-blue transition-colors">Sihing Fırat Arıkan</h3>
                 <p className="text-green-600 font-semibold mb-4">Ege Bölge Sorumlusu</p>
                 <p className="text-gray-600 mb-4">
                   Kendini savunma alanında uzman, 12 yıllık Wing Chun deneyimi.
@@ -232,8 +239,11 @@ const AboutPage = () => {
                     <span>12+ Yıl Deneyim</span>
                   </div>
                 </div>
+                <div className="mt-4 text-custom-blue font-semibold text-sm group-hover:underline">
+                  Detaylı Bilgi →
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

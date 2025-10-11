@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Users, Clock, Award, Heart, Shield, Target, Star } from 'lucide-react';
+import { Users, Clock, Award, Heart, Shield, Target, Star, Brain } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const ChildCourseDetails = () => {
@@ -86,165 +86,82 @@ const ChildCourseDetails = () => {
         </div>
       </section>
 
-      {/* Program Faydaları */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Çocuğunuzun Gelişimine Katkılar
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Wing Chun eğitimi çocuğunuzun fiziksel, mental ve sosyal gelişiminde 
-              önemli faydalar sağlar
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart size={32} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Özgüven Geliştirme</h3>
-              <p className="text-gray-600">
-                Wing Chun teknikleri öğrenen çocuklar kendilerini daha güvende hisseder 
-                ve özgüvenleri artar. Bu da sosyal ilişkilerinde olumlu etki yapar.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Shield size={32} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Disiplin & Saygı</h3>
-              <p className="text-gray-600">
-                Geleneksel dövüş sanatlarının temel değerleri olan disiplin, saygı ve 
-                sorumluluk bilinciyle çocuğunuz daha dengeli bir kişilik geliştirir.
-              </p>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target size={32} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Odaklanma</h3>
-              <p className="text-gray-600">
-                Wing Chun pratikleri çocuğun konsantrasyon ve odaklanma becerisini 
-                geliştirir. Bu okul başarısına da olumlu yansır.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Eğitim Programı */}
+      {/* Çocuk Wing Chun'un Faydaları */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Eğitim Programımız
+              Çocuklar İçin Wing Chun'un Faydaları
             </h2>
             <p className="text-xl text-gray-600">
-              Çocuklara özel hazırlanmış eğlenceli ve etkili müfredat
+              WTAA çocuk antrenmanlarının sunduğu eşsiz avantajlar
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {/* Seviye 1 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    1
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Temel Duruş ve Hareket (1-3. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Fiziksel Gelişim:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Temel Wing Chun duruşu</li>
-                          <li>• Denge ve koordinasyon</li>
-                          <li>• Basit el teknikleri</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Mental Gelişim:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Dikkat ve konsantrasyon</li>
-                          <li>• Takım çalışması</li>
-                          <li>• Temel saygı kuralları</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Günlük yaşamda denge */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Heart size={32} />
               </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Günlük Yaşamda Denge</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Günümüzde çocuklar performans odaklı bir toplumda stresli durumlarla başa çıkmak zorunda. 
+                WTAA'nın çocuk antrenmanları, sağlıklı bir denge ve dayanıklılık için güçlü bir temel sunuyor. 
+                Günlük yaşamın duygusal stresi, fiziksel ve atletik aktivitelerle mükemmel şekilde dengeleniyor.
+              </p>
+            </div>
 
-              {/* Seviye 2 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    2
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Temel Teknikler (4-6. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Teknik Gelişim:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Basit savunma teknikleri</li>
-                          <li>• El-göz koordinasyonu</li>
-                          <li>• Nefes teknikleri</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Sosyal Gelişim:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Grup çalışmaları</li>
-                          <li>• Empati geliştirme</li>
-                          <li>• Problem çözme</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            {/* Fiziksel uygunluk */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Award size={32} />
               </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Fiziksel Uygunluk</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Düzenli antrenman seansları koordinasyon, konsantrasyon, dayanıklılık, direnç ve özgüvenin yanı sıra 
+                hız ve gücü de geliştirir. WTAA'nın özel çocuk antrenmanları, çocukların daha iyi uyku çekmelerini 
+                sağlar ve okulda konsantrasyon yeteneklerini geliştirir.
+              </p>
+            </div>
 
-              {/* Seviye 3 */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    3
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      İleri Teknikler (7-12. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Gelişmiş Teknikler:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Kombine hareketler</li>
-                          <li>• Temel form çalışması</li>
-                          <li>• Partner egzersizleri</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Kişilik Gelişimi:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Liderlik becerileri</li>
-                          <li>• Özgüven pekiştirme</li>
-                          <li>• Hedef belirleme</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            {/* Değerleri iletir */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Shield size={32} />
               </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Değerleri İletir</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Saygı ve disiplin, WTAA eğitiminin temel taşlarıdır. Bu değerler, çocukların kişiliklerini 
+                olumlu yönde şekillendirir ve güçlendirir. Karakterin temeli erken yaşta atılır.
+              </p>
+            </div>
+
+            {/* Sosyalleşme */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Users size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Sosyalleşme</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Çocuklar, WTAA'da hem spor aktiviteleri hem de akranlarıyla grup antrenmanları aracılığıyla 
+                sosyal bağlarını sürdürebilir ve genişletebilir. Antrenmanlarda öğrenilen değerler, 
+                sosyalleşme yoluyla günlük hayata aktarılır.
+              </p>
+            </div>
+
+            {/* Oyunlu öğrenme */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Brain size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Oyunlu Öğrenme</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Çocuklar oyun oynayarak öğrenmeyi severler. Öz savunma çocuklarda daha belirgindir ve 
+                şaka yollu kavga etmekten büyük keyif alırlar. Bu neşe çocuklar için motivasyon 
+                göstergesi haline gelir. Ne kadar çok eğlenilirse, başarı da o kadar artar.
+              </p>
             </div>
           </div>
         </div>

@@ -192,37 +192,6 @@ const BlogPage = () => {
         </div>
       </section>
 
-      {/* Newsletter Signup */}
-      <section className="py-20 bg-custom-blue text-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">
-              Wing Chun Yazılarımızı Kaçırmayın!
-            </h2>
-            <p className="text-xl text-blue-100 mb-8">
-              Yeni blog yazılarımızdan haberdar olmak için e-posta listemize katılın. 
-              Wing Chun hakkında değerli içerikleri doğrudan size ulaştıralım.
-            </p>
-            <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="E-posta adresiniz"
-                className="flex-1 px-4 py-3 rounded-full text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-yellow-500"
-              />
-              <button
-                type="submit"
-                className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors"
-              >
-                Abone Ol
-              </button>
-            </form>
-            <p className="text-blue-200 text-sm mt-4">
-              Spam yapmayız. İstediğiniz zaman aboneliği iptal edebilirsiniz.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Popular Tags */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">

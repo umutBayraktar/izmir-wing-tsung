@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage';
 import GalleryPage from './pages/GalleryPage';
 import BlogPage from './pages/BlogPage';
 import BlogPost from './pages/BlogPost';
+import InstructorDetail from './pages/InstructorDetail';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path="/kurslar/genc-grubu" element={<TeenCourseDetails />} />
               <Route path="/kurslar/yetiskin-grubu" element={<AdultCourseDetails />} />
               <Route path="/hakkimizda" element={<AboutPage />} />
+              <Route path="/egitmen/:id" element={<InstructorDetail />} />
               <Route path="/galeri" element={<GalleryPage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPost />} />

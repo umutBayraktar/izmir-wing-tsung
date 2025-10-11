@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Users, Clock, Award, Shield, Brain, Zap, Star } from 'lucide-react';
+import { Users, Clock, Award, Shield, Brain, Zap, Star, User, Heart, Target } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 const AdultCourseDetails = () => {
@@ -99,162 +99,74 @@ const AdultCourseDetails = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Shield size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Etkili Savunma</h3>
-              <p className="text-gray-600">
-                Pratik ve gerçekçi kendini savunma teknikleri ile günlük hayatta 
-                karşılaşabileceğiniz tehlikeli durumlara hazır olun.
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Öz Savunma</h3>
+              <p className="text-gray-600 mb-4">
+                Wing Chun, kendini savunmak için son derece pratik ve uygulanabilir bir dövüş sanatıdır. Öğrenilen teknikler gerçekçidir ve acil durumlarda potansiyel saldırganlara karşı kendinizi savunmak için etkili bir şekilde kullanılabilir.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Brain size={32} />
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Target size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Stres Yönetimi</h3>
-              <p className="text-gray-600">
-                Wing Chun'un meditasyon teknikleri ve nefes çalışmaları ile 
-                iş yaşamının stresini azaltın ve mental dengeyi koruyun.
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Özgüven</h3>
+              <p className="text-gray-600 mb-4">
+                Wing Tsung öğrencileri sadece kendini savunma sanatını değil, aynı zamanda zorlu durumlarla nasıl başa çıkacaklarını da öğrenirler. Kazanılan özgüven, hayatın çeşitli alanlarında olumlu bir etkiye sahiptir ve öz saygının artmasına yol açar.
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                 <Zap size={32} />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Fiziksel Kondisyon</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Pratik Uygulanabilirlik</h3>
               <p className="text-gray-600">
-                Düzenli Wing Chun antrenmanları ile kardiyovasküler sağlığınızı 
-                koruyun, esneklik kazanın ve kas gücünüzü artırın.
+                Akrobatik hareketlere veya etkileyici performanslara dayanan bazı geleneksel dövüş sanatlarının aksine Wing-Tsung, gerçek yaşam durumlarında uygulanabilen etkili ve doğrudan tekniklere odaklanır.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Brain size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Konsantrasyon ve Odaklanma</h3>
+              <p className="text-gray-600">
+                Wing Tsung prensiplerini etkili bir şekilde uygulamak, yüksek konsantrasyon ve dikkat gerektirir. Bu yoğun zihinsel eğitim, görevlere odaklanma yeteneğini geliştirir ve dikkat dağıtıcı düşünceleri en aza indirir.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Heart size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Stres Azaltma</h3>
+              <p className="text-gray-600">
+                Wing Tsung antrenmanı, stres ve gerginliği azaltmanın bir yolunu sunar. Tekniklere ve hareketlere odaklanmak, sakinleştirici ve meditatif bir etki yaratarak günlük stresle daha iyi başa çıkmanıza yardımcı olabilir.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-custom-blue text-yellow-500 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <User size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Tüm Vücut Fitness</h3>
+              <p className="text-gray-600 mb-4">
+                Wing Tsung antrenmanı, tüm vücudu çalıştıran çeşitli hareketler içerir. Dayanıklılığı, gücü, esnekliği ve koordinasyonu geliştirerek genel fiziksel kondisyonu iyileştirir.
+              </p>
+              <p className="text-gray-600">
+                <strong>Sonuç:</strong> Tüm bu faydalar, Wing Chun'u yaş veya kondisyon seviyesi ne olursa olsun yetişkinler için ödüllendirici ve zenginleştirici bir deneyim haline getirir.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Eğitim Programı */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Kapsamlı Eğitim Programımız
-            </h2>
-            <p className="text-xl text-gray-600">
-              Başlangıçtan uzman seviyeye kadar sistematik Wing Chun eğitimi
-            </p>
-          </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {/* Başlangıç */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    1
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Başlangıç Seviyesi (1-6. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Temel Teknikler:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Wing Chun duruş ve temel pozisyonlar</li>
-                          <li>• Merkez çizgi teorisi ve uygulaması</li>
-                          <li>• Temel el teknikleri (Pak, Tan, Bong Sao)</li>
-                          <li>• Nefes teknikleri ve konsantrasyon</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Felsefe ve Mental:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Wing Chun tarihi ve felsefesi</li>
-                          <li>• Sakin kalma teknikleri</li>
-                          <li>• Zihninsel odaklanma</li>
-                          <li>• Stres azaltma yöntemleri</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Orta Seviye */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    2
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      Orta Seviye (7-12. Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">İleri Teknikler:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Chi Sao (Yapışkan eller) çalışması</li>
-                          <li>• Sil Lim Tau form eğitimi</li>
-                          <li>• Savunma-saldırı kombinasyonları</li>
-                          <li>• Mesafe kontrolü ve timing</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Pratik Uygulamalar:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Gerçekçi kendini savunma senaryoları</li>
-                          <li>• Partner egzersizleri</li>
-                          <li>• Refleks geliştirme çalışmaları</li>
-                          <li>• Kontrollü sparring</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* İleri Seviye */}
-              <div className="bg-white rounded-2xl p-8 shadow-lg">
-                <div className="flex items-start space-x-6">
-                  <div className="bg-yellow-500 text-gray-900 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 font-bold text-lg">
-                    3
-                  </div>
-                  <div className="flex-grow">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      İleri Seviye (13+ Ay)
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Uzman Teknikleri:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Chum Kiu form ve uygulamaları</li>
-                          <li>• İleri Chi Sao teknikleri</li>
-                          <li>• Serbest dövüş (Lat Sao)</li>
-                          <li>• Silah formları (Mook Jong)</li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-800 mb-2">Öğretmenlik:</h4>
-                        <ul className="text-gray-600 space-y-1">
-                          <li>• Yeni öğrencilere yardım</li>
-                          <li>• Teknik analizi ve düzeltme</li>
-                          <li>• Liderlik becerileri</li>
-                          <li>• Eğitmenlik sertifikası</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Başarı Hikayeleri */}
       <section className="py-20 bg-custom-blue text-white">
