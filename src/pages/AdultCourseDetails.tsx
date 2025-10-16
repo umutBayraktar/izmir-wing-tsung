@@ -188,17 +188,15 @@ const AdultCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "İş stresimle başa çıkmakta zorlanıyordum. Wing Chun sayesinde hem 
-                fiziksel hem de mental olarak güçlendim. Artık daha sakin ve odaklıyım. 
-                2 yıldır antrenman yapıyorum ve harika hissediyorum."
+                "Yaklaşık 4 yıla yakın bir süredir İzmir Wing Tsun WTAA bünyesinde Fırat hocanın öğrencisi olarak wing tsun çalışmaları sürdürmekteyim. Wing Tsun ben ve diğer tüm arkadaşlarımın yaşamında önemli bir yer kazandı. Fırat hoca, çalışma disiplini ve profesyonelliğiyle bize wing tsun'u sevdirdi ve ilerlememizi sağladı. Durmadan yorulmadan öğrenmeye devam ediyoruz. Bir Wing Tsun öğrencisi olarak bu dövüş sanatını yaşamına denge ve disiplin getirmek isteyen herkese tavsiye ediyorum."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  MK
+                  US
                 </div>
                 <div>
-                  <h4 className="font-semibold">Mehmet Kaya</h4>
-                  <p className="text-blue-200 text-sm">32 yaş - Yazılım Mühendisi</p>
+                  <h4 className="font-semibold">Uğur Saatçi</h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>
@@ -210,17 +208,53 @@ const AdultCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "Kadın olarak kendimi güvende hissetmek istiyordum. Wing Chun 
-                bana gerçekten etkili savunma teknikleri öğretti. Özgüvenim çok arttı 
-                ve artık her ortamda rahatım."
+                "Saldırıken ateş gibi kıvrak, direnirken dağ gibi sabit olun. Planlarınız gece karanlığı gibi gizli, gökgürültüsü kadar ani olsun :) Burası sadece dövüş sanatlarının uygulandığı bir salon değil, aynı zamanda ilkesel bir duruş sergileyen kulüp. Tavsiye ederim."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  SY
+                  YU
                 </div>
                 <div>
-                  <h4 className="font-semibold">Selin Yılmaz</h4>
-                  <p className="text-blue-200 text-sm">28 yaş - Öğretmen</p>
+                  <h4 className="font-semibold">Yusuf Uz</h4>
+                  <p className="text-blue-200 text-sm"></p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white bg-opacity-10 rounded-2xl p-8 backdrop-blur">
+              <div className="flex items-center mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={20} className="text-yellow-500 fill-current" />
+                ))}
+              </div>
+              <p className="text-blue-100 mb-6 italic text-lg">
+                "İzmirde dövüş sanatları denilince akla gelecek tek yer bence burası burda kendimi baya geliştirdim Fırat hocanın katkılarıyla ve hala devam ediyorum tşkler"
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
+                  V
+                </div>
+                <div>
+                  <h4 className="font-semibold">Vedat</h4>
+                  <p className="text-blue-200 text-sm"></p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white bg-opacity-10 rounded-2xl p-8 backdrop-blur">
+              <div className="flex items-center mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} size={20} className="text-yellow-500 fill-current" />
+                ))}
+              </div>
+              <p className="text-blue-100 mb-6 italic text-lg">
+                "Fırat hocayı 15 yıldır tanırım bilgi konusunda dağ,tevazu konusunda toprak gibidir,wing tsun öğrenebileceğiniz ve ailenizden insanlar kadar sıcak kanlı üyelerin olduğu harika bir salon."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
+                  BG
+                </div>
+                <div>
+                  <h4 className="font-semibold">Barış Gültekin</h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>

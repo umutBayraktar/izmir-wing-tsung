@@ -170,17 +170,15 @@ const TeenCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "Wing Chun'a başladığımdan beri hem fiziksel hem de mental olarak çok güçlendim. 
-                Okuldaki zorbalık problemleriyle başa çıkabiliyorum artık. Arkadaşlarımla 
-                da çok daha iyi anlaşıyorum."
+                "Yaklaşık 6 aydır gidiyorum ve gerçekten bayağı iyi. önceden boks gibi sadece güce dayalı şeyler ile uğraştım. Ama Fırat hocam neredeyse hiç güç uygulamadan kendimizi savunmayı öğretiyor. Alanında çok yeterli bir hoca kesinlikle tavsiye ederim."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  AK
+                  EO
                 </div>
                 <div>
-                  <h4 className="font-semibold">Ali Kara</h4>
-                  <p className="text-blue-200 text-sm">15 yaş - Lise 1. Sınıf</p>
+                  <h4 className="font-semibold">Emir Oltan</h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>
@@ -192,17 +190,15 @@ const TeenCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "Başlangıçta çekingendim ama Wing Chun sayesinde özgüvenim çok arttı. 
-                Artık kendimi ifade edebiliyorum ve sınavlara daha sakin giriyorum. 
-                Stresle başa çıkmayı öğrendim."
+                "Yaklaşık 4 yıldır bu sporla uğraşıyorum buraya gelip deşarj oluyorum denebilir fırat hocam ve buradaki abilerim sayesinde kendimi çok geliştirdim ve çok değiştirdim herkesin gelip bir kere deneme antrenmanına katılmasını tavsiye ederim ayrıca burada salondan çok abi-kardeş aile ortamı var sporun yanında bulunmaz bir nimet oluyor"
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  EG
+                  NBÇ
                 </div>
                 <div>
-                  <h4 className="font-semibold">Elif Güzel</h4>
-                  <p className="text-blue-200 text-sm">16 yaş - Lise 2. Sınıf</p>
+                  <h4 className="font-semibold">Nurullah Baran Çaşka</h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>

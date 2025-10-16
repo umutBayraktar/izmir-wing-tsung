@@ -172,10 +172,10 @@ const ChildCourseDetails = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
-              Velilerimizin Yorumları
+              Velilerimizin ve Öğrenci Yorumları
             </h2>
             <p className="text-xl text-blue-100">
-              Çocuklarını bizden Wing Chun eğitimi alan velilerimizin deneyimleri
+              Çocuklarını bizden Wing Chun eğitimi alan velilerimizin ve öğrencilerimizin deneyimleri
             </p>
           </div>
 
@@ -187,17 +187,18 @@ const ChildCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "Oğlum 8 yaşında kursa başladı. 6 ayda çok büyük değişim gördük. 
-                Hem fiziksel olarak güçlendi hem de okuldaki davranışları çok daha olumlu oldu. 
-                Eğitmenler gerçekten çocuklarla çok iyi iletişim kuruyor."
+                "3 yıldır devam ediyoruz abimle gayet güzel bir ortam...
+              Fırat hocamla sistemli bir şekilde çalışıyoruz..
+              Muhakkak gelip deneme antrenmanına gelip katılmanızı tavsiye ederim..
+              Pişman olmazsınız.. şuan 7. Seviyedeyim"
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  AY
+                  MHD
                 </div>
                 <div>
-                  <h4 className="font-semibold">Ayşe Yılmaz</h4>
-                  <p className="text-blue-200 text-sm">Eren'in Annesi (8 yaş)</p>
+                  <h4 className="font-semibold">Muhammed </h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>
@@ -209,17 +210,15 @@ const ChildCourseDetails = () => {
                 ))}
               </div>
               <p className="text-blue-100 mb-6 italic text-lg">
-                "Kızım çok çekingen bir çocuktu. Wing Chun sayesinde özgüveni arttı, 
-                arkadaşlarıyla daha iyi iletişim kurmaya başladı. Artık daha cesur 
-                ve kendinden emin. Teşekkürler!"
+                "1.5 yıldır geliyorum ve çok güzel bir şekilde kendimi savuna biliyorum 10 yaşındayım"
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-gray-900 font-bold mr-4">
-                  MK
+                  YSÖ
                 </div>
                 <div>
-                  <h4 className="font-semibold">Mehmet Kara</h4>
-                  <p className="text-blue-200 text-sm">Elif'in Babası (10 yaş)</p>
+                  <h4 className="font-semibold">Yavuz Selim Özgürel</h4>
+                  <p className="text-blue-200 text-sm"></p>
                 </div>
               </div>
             </div>
