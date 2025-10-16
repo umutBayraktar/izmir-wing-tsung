@@ -17,16 +17,16 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center border-2 border-gray-200" style={{ backgroundColor: '#fdc300' }}>
               <img
                 src="/izmir-wing-tsung/images/wing-tsung-sanat-dernegi-logo.webp"
                 alt="İzmir Wing Chun Logo"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="block">
-              <h1 className="text-blue-800 font-bold text-lg sm:text-xl">İzmir Wing Chun</h1>
-              <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">Geleneksel Kung Fu Sanatı</p>
+              <h1 className="text-blue-800 font-bold text-lg sm:text-xl">İzmir Wing Chun - WTAA</h1>
+              <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">Wing Chun Kung Fu Sanatı</p>
             </div>
           </Link>
 

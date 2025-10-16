@@ -367,11 +367,7 @@ const HomePage = () => {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 italic">
-                "İp-man filimlerini izledikten sonra film işte abartı demiştim buraya başlayınca filimler hafif kalırmış.
-Spora başlamak için arayış içindeyken bir vesile Fırat hocayla tanışıp hem spor hemde teknik bir eğitimin daha faydalı olduğuna kaanat getirdim şimdi oğlumda başladı
-
-Her yaştan kaliteli insanların buluştuğu bir salon
-Bize bu fırsatı sunduğu için Fırat hocama teşekkürler"
+                "İp-man filmlerini izledikten sonra film işte abartı demiştim buraya başlayınca filmler hafif kalırmış. Spora başlamak için arayış içindeyken bir vesile Fırat hocayla tanışıp hem spor hem de teknik bir eğitimin daha faydalı olduğuna kanaat getirdim şimdi oğlum da başladı. Her yaştan kaliteli insanların buluştuğu bir salon. Bize bu fırsatı sunduğu için Fırat hocama teşekkürler"
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-custom-blue rounded-full flex items-center justify-center text-white font-bold mr-4">
