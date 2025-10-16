@@ -65,7 +65,7 @@ const Footer = () => {
             <h4 className="font-semibold text-lg text-yellow-500">Kurslarımız</h4>
             <div className="space-y-2">
               <Link to="/kurslar/cocuk-grubu" className="block text-gray-300 hover:text-yellow-500 transition-colors text-sm">
-                Çocuk Grubu (6-13 yaş)
+                Çocuk Grubu (5-13 yaş)
               </Link>
               <Link to="/kurslar/genc-grubu" className="block text-gray-300 hover:text-yellow-500 transition-colors text-sm">
                 Genç Grubu (13-18 yaş)
@@ -99,12 +99,12 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock size={18} className="text-yellow-500 mt-1 flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
-                  <p>Pazartesi : 09:00-21:00</p>
-                  <p>Salı : 09:00-21:00</p>
-                  <p>Çarşamba : 09:00-21:00</p>
-                  <p>Perşembe : Kapalı </p>
-                  <p>Cuma : 09:00-21:00</p>
-                  <p>Cumartesi : 09:00-21:00</p>
+                  <p>Pazartesi : 06:00-22:00</p>
+                  <p>Salı : 06:00-22:00</p>
+                  <p>Çarşamba : 06:00-22:00</p>
+                  <p>Perşembe : 06:00-22:00</p>
+                  <p>Cuma : 06:00-22:00</p>
+                  <p>Cumartesi : 06:00-22:00</p>
                   <p>Pazar : Kapalı</p>
                 </div>
               </div>

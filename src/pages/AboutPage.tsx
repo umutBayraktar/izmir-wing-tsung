@@ -218,13 +218,13 @@ const AboutPage = () => {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="/izmir-wing-tsung/images/Sihing-Firat-Artan-Wing-Chun.webp"
-                  alt="Sihing Fırat Arıkan - Ege Bölge Sorumlusu"
+                  alt="Sihing Fırat Artan - Ege Bölge Sorumlusu"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   style={{ objectPosition: 'center top' }}
                 />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-custom-blue transition-colors">Sihing Fırat Arıkan</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-custom-blue transition-colors">Sihing Fırat Artan</h3>
                 <p className="text-green-600 font-semibold mb-4">Ege Bölge Sorumlusu</p>
                 <p className="text-gray-600 mb-4">
                   Kendini savunma alanında uzman, 12 yıllık Wing Chun deneyimi.
@@ -232,11 +232,11 @@ const AboutPage = () => {
                 <div className="space-y-2 text-sm text-gray-600">
                   <div className="flex items-center">
                     <Award size={16} className="mr-2 text-yellow-500" />
-                    <span>Eğitmen Seviyesi (5. Dan)</span>
+                    <span>Eğitmen Seviyesi (2. Dan)</span>
                   </div>
                   <div className="flex items-center">
                     <Clock size={16} className="mr-2 text-yellow-500" />
-                    <span>12+ Yıl Deneyim</span>
+                    <span>18+ Yıl Deneyim</span>
                   </div>
                 </div>
                 <div className="mt-4 text-custom-blue font-semibold text-sm group-hover:underline">

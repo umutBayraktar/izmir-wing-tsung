@@ -84,10 +84,10 @@ Wing Chun, sadece bir dövüş sanatı değil, aynı zamanda bir yaşam felsefes
 
 Unutmayın, her uzman bir zamanlar başlangıçtı. Wing Chun yolculuğunuza başlamak için asla geç değil!
     `,
-    author: 'Sifu Ali Demir',
+    author: 'Sihing Fırat Artan',
     publishDate: '2024-01-15',
     category: 'Eğitim',
-    image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg',
+    image: '/izmir-wing-tsung/images/wing-chun-nedir.jpg',
     tags: ['Wing Chun', 'Başlangıç', 'Eğitim', 'Kung Fu'],
     readTime: 8
   },
@@ -186,10 +186,10 @@ Wing Chun, çocukların hem fiziksel hem de mental gelişimine katkıda bulunan 
 
 Çocuğunuzun Wing Chun yolculuğuna başlaması için bizimle iletişime geçebilirsiniz. İlk ders ücretsiz!
     `,
-    author: 'Ayşe Can',
+    author: 'Sihing Fırat Artan',
     publishDate: '2024-01-10',
     category: 'Çocuk Eğitimi',
-    image: 'https://images.pexels.com/photos/8611192/pexels-photo-8611192.jpeg',
+    image: '/izmir-wing-tsung/images/cocuklar-icin-wing-chun-faydalari.webp',
     tags: ['Çocuk', 'Gelişim', 'Ebeveyn', 'Faydalar'],
     readTime: 6
   },
@@ -339,10 +339,10 @@ Chi Sao, Wing Chun'un en değerli hazinelerinden biridir. Bu tekniği doğru ö�
 
 İzmir Wing Chun'da Chi Sao'yu deneyimli eğitmenlerimizle öğrenebilir ve bu eşsiz tekniğin inceliklerini keşfedebilirsiniz.
     `,
-    author: 'Sifu Ali Demir',
+    author: 'Sihing Fırat Artan',
     publishDate: '2024-01-05',
     category: 'Teknikler',
-    image: 'https://images.pexels.com/photos/7991322/pexels-photo-7991322.jpeg',
+    image: '/izmir-wing-tsung/images/chi-sao-ipma-bruce-lee.png',
     tags: ['Chi Sao', 'Teknik', 'İleri Seviye', 'Sparring'],
     readTime: 10
   },
@@ -524,10 +524,10 @@ Wing Chun felsefesi, tüm yaşam alanlarında uygulanabilecek evrensel prensiple
 
 Wing Chun sadece dövüşmeyi öğreten bir sanat değil, yaşamı daha bilinçli ve etkili şekilde yaşamayı öğreten bir felsefedir. İzmir Wing Chun'da bu felsefeyi deneyimleyebilir ve yaşamınızın bir parçası haline getirebilirsiniz.
     `,
-    author: 'Sifu Ali Demir',
+    author: 'Sihing Fırat Artan',
     publishDate: '2023-12-28',
     category: 'Felsefe',
-    image: 'https://images.pexels.com/photos/8611543/pexels-photo-8611543.jpeg',
+    image: '/izmir-wing-tsung/images/wing-chun-felsefesi.webp',
     tags: ['Felsefe', 'Yaşam', 'Mental Gelişim', 'Denge'],
     readTime: 12
   }

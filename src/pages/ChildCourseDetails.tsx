@@ -6,9 +6,9 @@ const ChildCourseDetails = () => {
   return (
     <>
       <SEOHead 
-        title="Çocuk Wing Chun Kursu (6-13 yaş) | İzmir Wing Chun"
-        description="6-13 yaş çocuklar için özel tasarlanmış Wing Chun kursu. Eğlenceli öğrenme, disiplin ve motor beceri geliştirme. İlk ders ücretsiz!"
-        keywords="çocuk wing chun, çocuk kung fu izmir, 6-13 yaş dövüş sanatı, çocuk sporu izmir"
+        title="Çocuk Wing Chun Kursu (5-13 yaş) | İzmir Wing Chun"
+        description="5-13 yaş çocuklar için özel tasarlanmış Wing Chun kursu. Eğlenceli öğrenme, disiplin ve motor beceri geliştirme. İlk ders ücretsiz!"
+        keywords="çocuk wing chun, çocuk kung fu izmir, 5-13 yaş dövüş sanatı, çocuk sporu izmir"
         ogUrl="https://izmirwingchun.com/kurslar/cocuk-grubu"
       />
 
@@ -17,7 +17,7 @@ const ChildCourseDetails = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-yellow-500 text-gray-900 px-6 py-2 rounded-full font-semibold inline-block mb-6">
-              6-13 Yaş Grubu
+              5-13 Yaş Grubu
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Çocuk Wing Chun Kursu
@@ -47,7 +47,7 @@ const ChildCourseDetails = () => {
                 <div className="bg-yellow-50 p-6 rounded-xl">
                   <Users className="text-yellow-600 mb-3" size={32} />
                   <h3 className="font-semibold text-gray-900 mb-2">Yaş Grubu</h3>
-                  <p className="text-gray-700">6-13 yaş</p>
+                  <p className="text-gray-700">5-13 yaş</p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl">
                   <Clock className="text-blue-600 mb-3" size={32} />

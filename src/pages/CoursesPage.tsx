@@ -7,9 +7,9 @@ const CoursesPage = () => {
     {
       id: 'cocuk-grubu',
       title: 'Çocuk Grubu',
-      subtitle: '6-13 yaş',
+      subtitle: '5-13 yaş',
       image: '/izmir-wing-tsung/images/izmir-wing-chun-cocuk-grubu.jpg',
-      description: '6-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.',
+      description: '5-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.',
       features: [
         'Eğlenceli oyun temelli öğrenme',
         'Disiplin ve saygı değerlerinin kazanılması',

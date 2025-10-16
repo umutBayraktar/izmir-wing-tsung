@@ -75,11 +75,11 @@ const HomePage = () => {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Çocuk Grubu</h3>
-                <p className="text-gray-600 mb-4">6-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.</p>
+                <p className="text-gray-600 mb-4">5-13 yaş arası çocuklar için özel tasarlanmış eğlenceli ve eğitici Wing Chun programı.</p>
                 <div className="space-y-2 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Users size={16} className="mr-2 text-yellow-500" />
-                    <span className="text-sm">6-13 yaş</span>
+                    <span className="text-sm">5-13 yaş</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Clock size={16} className="mr-2 text-yellow-500" />
@@ -473,9 +473,13 @@ Bize bu fırsatı sunduğu için Fırat hocama teşekkürler"
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Ders Saatleri</h4>
                       <p className="text-gray-600">
-                        Salı: 09:00-21:00<br />
-                        Pazar: Kapalı<br />
-                        Diğer günler açık
+                        <p>Pazartesi : 06:00-22:00</p>
+                        <p>Salı : 06:00-22:00</p>
+                        <p>Çarşamba : 06:00-22:00</p>
+                        <p>Perşembe : 06:00-22:00</p>
+                        <p>Cuma : 06:00-22:00</p>
+                        <p>Cumartesi : 06:00-22:00</p>
+                        <p>Pazar : Kapalı</p>
                       </p>
                     </div>
                   </div>

@@ -91,13 +91,13 @@ export const instructors: Instructor[] = [
   },
   {
     id: 'firat-arikan',
-    name: 'Sihing Fırat Arıkan',
+    name: 'Sihing Fırat Artan',
     title: 'Ege Bölge Sorumlusu',
     titleColor: 'text-green-600',
     image: '/izmir-wing-tsung/images/Sihing-Firat-Artan-Wing-Chun.webp',
     shortDescription: 'Kendini savunma alanında uzman, 12 yıllık Wing Chun deneyimi.',
-    experience: '12+ Yıl Deneyim',
-    level: 'Eğitmen Seviyesi (5. Dan)',
+    experience: '18+ Yıl Deneyim',
+    level: 'Eğitmen Seviyesi (2. Dan)',
     specialties: [
       'Kendini Savunma Teknikleri',
       'Genç Grubu Eğitimi',
@@ -106,7 +106,7 @@ export const instructors: Instructor[] = [
       'Kondisyon Antrenmanları'
     ],
     biography: [
-      'Sihing Fırat Arıkan, 12 yıllık Wing Chun deneyimi ile kendini savunma alanında uzmanlaşmış bir eğitmendir. Ege Bölge Sorumlusu olarak WTAA\'nın bölgedeki faaliyetlerini koordine etmektedir.',
+      'Sihing Fırat Artan, 12 yıllık Wing Chun deneyimi ile kendini savunma alanında uzmanlaşmış bir eğitmendir. Ege Bölge Sorumlusu olarak WTAA\'nın bölgedeki faaliyetlerini koordine etmektedir.',
       'Özellikle gençlere yönelik Wing Chun eğitimi konusunda deneyimli olan Fırat hoca, pratik ve etkili kendini savunma tekniklerini öğretme konusunda başarılı bir geçmişe sahiptir.',
       'Wing Chun\'un gerçek hayattaki uygulamalarına odaklanan eğitim anlayışı ile öğrencilerinin hem fiziksel hem de mental olarak güçlenmelerini sağlamaktadır.'
     ],
