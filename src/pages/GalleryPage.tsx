@@ -8,26 +8,26 @@ const GalleryPage = () => {
   const images = [
     {
       id: 1,
-      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-1.png',
-      title: 'Yetişkin Grubu Antrenmanı',
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-afis.png',
+      title: 'WTAA Izmir Wing Chun Semineri',
       category: 'Etkinlikler'
     },
     {
       id: 2,
       src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-2.png',
-      title: 'Çocuk Grubu Eğitimi',
+      title: 'WTAA Izmir Wing Chun Semineri',
       category: 'Etkinlikler'
     },
     {
       id: 3,
       src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-3.png',
-      title: 'Genç Grubu Chi Sao',
+      title: 'WTAA Izmir Wing Chun Semineri',
       category: 'Etkinlikler'
     },
     {
       id: 4,
       src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-4.png',
-      title: 'Form Çalışması',
+      title: 'WTAA Izmir Wing Chun Semineri'  ,
       category: 'Etkinlikler'
     },
     {
@@ -39,26 +39,74 @@ const GalleryPage = () => {
     {
       id: 6,
       src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-5.png',
-      title: 'Wing Chun Semineri',
+      title: 'Partner Egzersizleri',
       category: 'Teknikler'
     },
     {
       id: 7,
       src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-1.png',
-      title: 'Dernek Etkinliği',
+      title: 'Yetişkin Grubu Antrenmanı',
       category: 'Antrenmanlar'
     },
     {
       id: 8,
       src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-2.png',
-      title: 'Nefes Teknikleri',
+      title: 'Serbest Dövüş Antremanları',
       category: 'Antrenmanlar'
     },
     {
       id: 9,
       src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-3.png',
-      title: 'Nefes Teknikleri',
+      title: 'Lap-sao Çalışması',
       category: 'Antrenmanlar'
+    },
+    {
+      id: 10,
+      src: '/izmir-wing-tsung/images/gallery/wtaa-seminer-2.jpeg',
+      title: 'WTAA Izmir Wing Chun Semineri',
+      category: 'Etkinlikler'
+    },
+    {
+      id: 11,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-antrenman-4.jpeg',
+      title: 'Tekme Çalışması',
+      category: 'Antrenmanlar'
+    },
+    {
+      id: 13,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-seminer-bicaga-karsi-savunma-2.jpeg',
+      title: 'Bıçağa Karşı Savunma',
+      category: 'Antrenmanlar'
+    },
+    {
+      id: 14,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-sopaya-karsi-mudahale.jpeg',
+      title: 'Sopaya Karşı Müdahale',
+      category: 'Teknikler'
+    },
+    {
+      id: 15,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-seminer-3.jpeg',
+      title: 'WTAA Izmir Wing Chun Semineri',
+      category: 'Etkinlikler'
+    },
+    {
+      id: 16,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-bicaga-karsi-savunma.jpeg',
+      title: 'Bıçağa Karşı Savunma',
+      category: 'Teknikler'
+    },
+    {
+      id: 17,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-sopaya-karsi-mudahale-2.jpeg',
+      title: 'Sopaya Karşı Müdahale',
+      category: 'Teknikler'
+    },
+    {
+      id: 18,
+      src: '/izmir-wing-tsung/images/gallery/izmir-wing-chun-wtaa-seminer-5.jpeg',
+      title: 'WTAA Izmir Wing Chun Semineri',
+      category: 'Etkinlikler'
     },
 
   ];
