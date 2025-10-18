@@ -159,7 +159,7 @@ const ChildCourseDetails = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Oyunlu Öğrenme</h3>
               <p className="text-gray-600 leading-relaxed">
                 Çocuklar oyun oynayarak öğrenmeyi severler. Öz savunma çocuklarda daha belirgindir ve 
-                şaka yollu kavga etmekten büyük keyif alırlar. Bu neşe çocuklar için motivasyon 
+                şaka yollu dövüş eğitimi almaktan büyük keyif alırlar. Bu neşe çocuklar için motivasyon 
                 göstergesi haline gelir. Ne kadar çok eğlenilirse, başarı da o kadar artar.
               </p>
             </div>
